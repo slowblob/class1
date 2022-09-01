@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.icons h2:hover{
+    color:rgb(119, 215, 244);
+    font-size: 50px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icons h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+@media screen and (min-width:961px){
+    .icons h2{
+        width: 16%;
+    }
+}
+@media screen and (max-width:961px )and (min-width:481px) {
+    .icons h2{
+        width: 33%;
+    }
+}
+@media screen and (max-width:480px){
+    .icons h2{
+        width: 100%;
+    }
+    .icons{
+    display: flex;
+    flex-direction: column;
+    
+    }
+}
